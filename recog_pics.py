@@ -18,8 +18,8 @@ def find_image_on_screen(screen_array, image_array, threshold):
     return max_val >= threshold
 
 def main():
-    test1_array = load_image_to_gray_array(r'G:\DevStuff\SelfTools\DoScreen\test.png')
-    test2_array = load_image_to_gray_array(r'G:\DevStuff\SelfTools\DoScreen\test2.png')
+    test1_array = load_image_to_gray_array(/path/to/file) #NEED TO EDIT
+    test2_array = load_image_to_gray_array(/path/to/file) #NEED TO EDIT
 
     # Set thresholds for each image
     threshold_test1 = 0.995  # Threshold for test1.png
@@ -32,13 +32,13 @@ def main():
         test2_found = find_image_on_screen(screen_array, test2_array, threshold_test2)
 
         if test1_found and test2_found:
-            print("Beide Bilder sind auf dem Bildschirm sichtbar.")
+            print("Both images are visible on the screen.")
         elif test1_found:
-            print("Test1-Bild ist auf dem Bildschirm sichtbar.")
+            print("Test1 image is visible on the screen.")
         elif test2_found:
-            print("Test2-Bild ist auf dem Bildschirm sichtbar.")
+            print("Test2 image is visible on the screen.")
         else:
-            print("Keines der Bilder ist auf dem Bildschirm sichtbar.")
+            print("None of the images are visible on the screen.")
 
         time.sleep(1)
 
