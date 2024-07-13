@@ -47,7 +47,7 @@ Example for Ubuntu:
 
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/5e6b98d9-36fa-435d-8126-e533e9337142)
 
-![image](https://github.com/user-attachments/assets/c6b1f160-38aa-4d95-99e4-4553c3a66ad3)
 
 
