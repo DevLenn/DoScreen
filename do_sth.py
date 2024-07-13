@@ -7,7 +7,7 @@ import threading
 class App:
     def __init__(self, root):
         self.root = root
-        self.root.title("Automatisierungswerkzeug")
+        self.root.title("Automation Tool")
 
         self.action_var = tk.StringVar(value="click")
         self.keys_var1 = tk.StringVar(value="F1")
@@ -85,7 +85,7 @@ class App:
         threading.Thread(target=self.execute_action).start()
 
     def execute_action(self):
-        time.sleep(3)  # 3 Sekunden Verzögerung
+        time.sleep(3)  # 3 seconds delay
         action = self.action_var.get()
         if action in ("click", "dbl_click", "r_click"):
             x = int(self.x_var.get())
