@@ -48,5 +48,6 @@ Example for Ubuntu:
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/user-attachments/assets/c6b1f160-38aa-4d95-99e4-4553c3a66ad3)
+
 
