@@ -30,9 +30,9 @@ Example for Ubuntu:
 
 `click` --> normal left click
 
-`dbl_click` --> right click
+`r_click` --> right click
 
-`r_click` --> double click
+`dbl_click` --> double click
 
 `key` --> emulate pressing a key
 
